@@ -1,12 +1,16 @@
 /* Add screen styles below */
+@font-face{
+    font-family: "JacquesFrancois";
+    src: url("JacquesFrancois-Regular.ttf");
+}
 .col{
     background-color: #98A869;
     text-align: left;
-    font-size: 15pt;
+    font-size: 12pt;
     border: 32px solid transparent;
     border-image: url("images/Arabesque Pattern.png") 72 round;
     padding: 30px;
 }
-p{
-    font-family: "Yu Gothic UI Semilight";
+.container-fluid{
+    font-family: "JacquesFrancois", serif;
 }
