@@ -10,7 +10,11 @@
     border: 32px solid transparent;
     border-image: url("images/Arabesque Pattern.png") 72 round;
     padding: 30px;
+    min-width: 590px;
 }
 .container-fluid{
     font-family: "JacquesFrancois", fantasy;
+}
+.img-fluid{
+    max-width: 50%;
 }
